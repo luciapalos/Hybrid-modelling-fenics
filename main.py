@@ -95,8 +95,8 @@ for minute in range(num_minutes):
    
 end_time = time.time()
 elapsed_time = end_time - start_time
-elapsed_minutes = elapsed_time // 60
-elapsed_hours = (elapsed_minutes // 60) % 24
+elapsed_minutes = (elapsed_time // 60) % 60
+elapsed_hours = (elapsed_time // 60) // 60
 elapsed_seconds = elapsed_time % 60
 print(f"The simulation took: {elapsed_hours:.2f} hours, {elapsed_minutes:.2f} minutes and {elapsed_seconds:.2f} seconds")
         
