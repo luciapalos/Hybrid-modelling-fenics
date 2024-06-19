@@ -19,8 +19,8 @@ u_l = 0.0 # Boundary conditions (left) (mmHg)
 u_r = 7.0 # Boundary conditions (right) (mmHg)
 
 # CONSTANS FOR VARIATIONAL_PROBLEM.PY
-nx = 150 # Number of nodes of the mesh in the x direction
-ny = 50 # Number of nodes of the mesh in the y direction  
+nx = 150 # Number of elements of the mesh in the x direction
+ny = 50 # Number of elements of the mesh in the y direction  
 width = 1200 # Width of the mesh (um)
 height = 400 # Height of the mesh (um)
 height_element = height/ny
